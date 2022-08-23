@@ -114,3 +114,24 @@ h3
 }
 
 /*Aqui terminan los estilos del main*/
+/*Aqui comienzan los estilos del footer*/
+footer
+{
+    margin-top: 5px;
+    padding: 5px;
+    text-align: center;
+    color: var(--primary-color);
+    background-color: var(--color-opcional-1);
+    border-bottom: 4px solid var( --primary-color-dark);
+    display: flexbox;
+}
+
+.clima
+{
+    
+}
+
+.resaltar
+{
+    color: var(--color-opcional-2);
+}
