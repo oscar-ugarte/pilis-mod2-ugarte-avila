@@ -63,3 +63,54 @@ nav ul li a:hover
     border-radius:100px;
 }
 /*Fin de Estilos de la Cabecera*/
+/*Aqui comienzan los estilos del main*/
+.flex-container
+{
+    margin-top: 3px;
+    color: var(--primary-color);
+    background-color: var(--color-opcional-1);
+    border-bottom: 4px solid var(--primary-color);
+    display: flex;
+    flex-wrap: nowrap; /*nowrap para que cuando se acabe el espacio no se acomoden uno abajo del otro*/
+    align-items: center; /*Para alinear los elementos al centro*/ 
+    text-align: center;
+}
+
+article
+{
+    display: flex;
+    flex: 3;
+    justify-content: center;
+}
+
+.contenido
+{
+    margin: 20px;
+}
+
+aside
+{
+    display: flexbox;
+    flex: 2;
+    justify-content: center;
+}
+
+.imagen-contenido, video
+{
+    width: 85%;
+    height: 85%;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+h3
+{
+    color: var(--color-opcional-3);
+}
+
+.formulario
+{
+    /*Aqui deben ir los estilos del formulario:*/
+}
+
+/*Aqui terminan los estilos del main*/
