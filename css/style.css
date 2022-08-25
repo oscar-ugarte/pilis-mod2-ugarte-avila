@@ -217,4 +217,5 @@ footer
 .resaltar
 {
     color: var(--color-opcional-2);
+    font-weight: bold;
 }
