@@ -70,6 +70,12 @@ nav ul li a:hover
 }
 /*Fin de Estilos de la Cabecera*/
 /*Aqui comienzan los estilos del main*/
+
+h1
+{
+    font-size: 33px;
+}
+
 .flex-container
 {
     margin-top: 3px;
