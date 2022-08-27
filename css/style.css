@@ -127,6 +127,9 @@ main {
 
 #Registro {
     background: var(--color-opcional-1);
+    /*Se agregaron los estilos que se perdieron individualmente aqui.*/
+    margin-top: 3px; 
+    border-bottom: 4px solid var(--primary-color);
 }
 
 .form-div {
