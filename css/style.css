@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 :root {
     --primary-color: #94c93d;
     --primary-color-dark: #07703c;
     --color-opcional-1: #000000;
     --color-opcional-2: #ed1a37;
     --color-opcional-3: #ffffff;
+}
+
+body{
+    font-family: 'Poppins',Helvetica,Arial,sans-serif;
 }
 
 /*Inicio de Estilos de la Cabecera*/
@@ -108,36 +114,29 @@ h3
     color: var(--color-opcional-3);
 }
 
-.formulario
-{
-    /*Aqui deben ir los estilos del formulario:*/
-}
-
-
-
 
 /*------- seccion de registro formulario ------------ */
 
-*{
+* {
     box-sizing: border-box;
 }
 
-main{
+main {
     color: var(--primary-color);
 }
 
-#Registro{
+#Registro {
     background: var(--color-opcional-1);
 }
 
-.form-div{
+.form-div {
     width: 40%;
     display: flex;
     justify-content: center;
 }
 
-#Registro .container .registro-title{
-    font-size: 20px;
+#Registro .container .registro-title {
+    /* font-size: 20px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -146,23 +145,22 @@ main{
     text-align: center;
 }
 
-#Registro .container{
+#Registro .container {
     display: flex;
 }
 
-.form-div .registro-form{
+.form-div .registro-form {
     width: 85%;
     background: var(--primary-color-dark);
     border-radius: 20px;
-
     display: flex;
     justify-content: center;
 
     margin: 10px auto;
-padding: 5px;
+    padding: 5px;
 }
 
-form .form-control{
+form .form-control {
     width: 100%;
     padding: 0.375rem 0.7rem;
     padding-top: 0.375rem;
@@ -171,27 +169,31 @@ form .form-control{
     padding-left: 0.7rem;
 }
 
-
-form{
+form {
     width: 90%;
     padding: 0.375rem 0rem;
     color: var(--color-opcional-3);
 }
 
-form .form-group{
+form .form-group {
     padding: 0.375rem 0rem;
     font-weight: 700;
 }
-form .form-group input{
+
+form .form-group input {
     border-radius: 10px;
 }
 
-form .btn{
+form .btn {
     width: 100%;
     opacity: .5;
     padding: 10px;
     margin: 15px 0px;
     border-radius: 10px;
+}
+
+.registro-title h2 {
+    position: relative;
 }
 
 /* -------- fin seccion de registro formulario ------*/ 
